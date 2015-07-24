@@ -33,7 +33,7 @@ function Loon(ratio, imageurl){
 
 var myLoon = [ 
 new Loon("horizontal", "http://www.wolfsvisionphotography.com/Common_Loon_XX_III_-_Island_Lake_2012.jpg"),
-new Loon("vertical", "http://www.seagrant.wisc.edu/birds/images/MichellePWoodford_commonLoon2.jpg")
+new Loon("vertical", "http://www.seagrant.wisc.edu/birds/images/MichellePWoodford_commonLoon2.jpg"),
 new Loon("square", "http://www.hww.ca/assets/images/birds/loons/loons.jpg")
 ]
 
