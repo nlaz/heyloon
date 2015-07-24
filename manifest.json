@@ -14,8 +14,7 @@
     "activeTab"
   ],
   "background": {
-    "scripts": ["background.js", "heyloon.js"],
-    "persistent": false
+    "scripts": ["background.js", "heyloon.js"]
   },
   "manifest_version": 2
 }
