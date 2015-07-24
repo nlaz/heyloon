@@ -14,10 +14,3 @@ Clone this project
 
 #### Step 3
 Add your images
-
-###How To Install
-
-###How To Use
-
-
-*Forked with ❤ from KCHAMP!*  
