@@ -1,7 +1,7 @@
 A Beginner's Guide to Chrome Extensions
 =======================================
 
-# A Lesson on Loon Pranking
+## A Lesson on Loon Pranking
 
 Hey Loon is forked with ❤ from the [Hey Girl](https://github.com/keccers/heygirl) extension by Katherine Champagne. 
 

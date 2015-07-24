@@ -1,28 +1,28 @@
-function Gosling(ratio, imageurl){
+function Loon(ratio, imageurl){
   this.ratio = ratio;
   this.imageurl = imageurl;
 }
 
- var getGosling = {
-  init: function(myGosling){
-    this.myGosling = myGosling;
+ var getLoon = {
+  init: function(myLoon){
+    this.myLoon = myLoon;
   },
 
   horizontal: function(){
-    return this.myGosling.filter(function(myGosling){
-      return myGosling.ratio === "horizontal";
+    return this.myLoon.filter(function(myLoon){
+      return myLoon.ratio === "horizontal";
     });
   },
 
   vertical: function(){
-    return this.myGosling.filter(function(myGosling){
-      return myGosling.ratio === "vertical";
+    return this.myLoon.filter(function(myLoon){
+      return myLoon.ratio === "vertical";
     });
   }, 
 
   square: function (){
-    return this.myGosling.filter(function(myGosling){
-      return myGosling.ratio === "square";
+    return this.myLoon.filter(function(myLoon){
+      return myLoon.ratio === "square";
     });  
   }
  };
@@ -31,21 +31,10 @@ function Gosling(ratio, imageurl){
     return Math.floor(Math.random() * images.length)
  }
 
-var myGosling = [ 
-new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-1.png"), 
-new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-2.gif"), 
-new Gosling("horizontal", "http://heygirl.io/img/gosling-horiz-3.jpg"),
-new Gosling("vertical", "http://heygirl.io/img/gosling-vert-1.jpg"), 
-new Gosling("vertical", "http://heygirl.io/img/gosling-vert-3.jpg"), 
-new Gosling("vertical", "http://heygirl.io/img/gosling-vert-4.jpg"),
-new Gosling("vertical", "http://heygirl.io/img/gosling-vert-5.gif"),
-new Gosling("vertical", "http://heygirl.io/img/gosling-vert-6.jpg"),
-new Gosling("vertical", "http://heygirl.io/img/gosling-vert-7.jpg"),
-new Gosling("vertical", "http://heygirl.io/img/gosling-vert-8.jpg"),
-new Gosling("vertical", "http://heygirl.io/img/gosling-vert-9.jpg"),
-new Gosling("square", "http://heygirl.io/img/gosling-square-1.jpg"),
-new Gosling("square", "http://heygirl.io/img/gosling-square-2.jpg"),
-new Gosling("square", "http://heygirl.io/img/gosling-square-3.jpg")
+var myLoon = [ 
+new Loon("horizontal", "http://www.wolfsvisionphotography.com/Common_Loon_XX_III_-_Island_Lake_2012.jpg"),
+new Loon("vertical", "http://www.seagrant.wisc.edu/birds/images/MichellePWoodford_commonLoon2.jpg")
+new Loon("square", "http://www.hww.ca/assets/images/birds/loons/loons.jpg")
 ]
 
 function imageRatio(image) {
@@ -62,13 +51,13 @@ function imageRatio(image) {
            
 (function (document) {
   
-  getGosling.init(myGosling);
+  getLoon.init(myLoon);
   var images = document.getElementsByTagName('img'), length = images.length
  
   for (var i = 0; i < length; i++) {
     var ratio = imageRatio(images[i]);
-    var number = Randomize(getGosling[ratio]());
-    var img = getGosling[ratio]()[number];
+    var number = Randomize(getLoon[ratio]());
+    var img = getLoon[ratio]()[number];
     images[i].src = img.imageurl
   }
 
