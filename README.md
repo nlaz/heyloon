@@ -1,18 +1,23 @@
-Welcome!
-================
+A Lesson on Loon Pranking
+=========================
 
-###About
-Sick of your Facebook friends? News getting you down?
-Hey Girl is a bookmarklet that changes every image on a webpage to one of Ryan Gosling. 
+Hey Loon is forked with ❤ from the [Hey Girl](https://github.com/keccers/heygirl) extension by Katherine Champagne. 
+
+## About
+Want to learn how to prank your friends' computer? Sneak this chrome extension on their machine when they are not looking! This is how you build your own chrome extension prank.
+
+#### Step 1
+Gather your loon images
+
+#### Step 2
+Clone this project
+
+#### Step 3
+Add your images
 
 ###How To Install
-* Select all of the code from [the bookmarklet file](https://github.com/keccers/heygirl/blob/master/bookmarklet.js) and drag it/copy it to your bookmarks bar. 
-
-* Install the Chrome Extension by [visiting the Google Play store](https://chrome.google.com/webstore/detail/hey-girl-hey/jcpmmhaffdebnmkjelaohgjmndeongip?hl=en). 
 
 ###How To Use
-* Click the bookmarklet on any page that needs a little HEY GIRL!
 
 
-
-*Made with ❤ by KCHAMP!*  
+*Forked with ❤ from KCHAMP!*  
